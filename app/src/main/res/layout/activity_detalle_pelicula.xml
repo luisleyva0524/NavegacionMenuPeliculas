@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetallePelicula">
+
+    <TextView
+        android:id="@+id/tv_nombre_detalle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NombrePelicula"
+        android:textSize="24dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:layout_margin="5dp" />
+
+    <ImageView
+        android:id="@+id/img_detalle"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:src="@drawable/juegodelcalamar"
+        />
+
+    <TextView
+        android:id="@+id/tv_descripcion_detalle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aqui descripción"
+        android:layout_margin="10dp"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        />
+
+
+
+</LinearLayout>
